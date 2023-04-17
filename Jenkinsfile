@@ -19,11 +19,5 @@ pipeline {
                 }
                    			
               }
-			post {
-               always {
-               archiveArtifacts artifacts: '**/*.war', fingerprint: true
-            
-                      }
-                }
      }
 }
